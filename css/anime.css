@@ -1,0 +1,35 @@
+.box1{
+    animation: CircleIn 3s;
+    width: 100%;
+    height:100%;
+}
+@-webkit-keyframes CircleIn  {
+    0%{
+        clip-path: circle(0 at 50% 50%);
+        background-color: black;
+    }
+    100%{
+        clip-path:circle(100% at 50% 50%);
+        background-color: transparent;
+    }
+}
+@-moz-keyframes CircleIn  {
+    0%{
+        clip-path: circle(0 at 50% 50%);
+        background-color: black;
+    }
+    100%{
+        clip-path:circle(100% at 50% 50%);
+        background-color: transparent;
+    }
+}
+@keyframes CircleIn  {
+    0%{
+        clip-path: circle(0 at 50% 50%);
+        background-color: black;
+    }
+    100%{
+        clip-path:circle(100% at 50% 50%);
+        background-color: transparent;
+    }
+}

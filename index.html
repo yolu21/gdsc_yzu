@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSC YZU</title>
+    <link rel="stylesheet" href="css/hint.css">
+    <link href="pic/gdscicon.png" rel="Shortcut Icon" type="image/x-icon">
+    <script src="js/mobile.js"></script>
+</head>
+<body>
+    <span class="hint--bottom hint--info hint--medium hint--rounded"  aria-label="Welcome home!" 
+        style="position:fixed;top:50%;left:50%;text-align: center;">
+        <img id="door" src="pic/door1.png" alt=""
+         style="width:600px;position:fixed;top:50%;left:50%;transform: translateX(-50%) translateY(-50%);">
+    </span>
+    <script src="js/jquery_3.5.1.js"></script>
+    <script type="text/javascript">
+    var eleAudioOpen = document.getElementById('audio');
+        $(document).ready(function(){
+            $("#door").click(function(){
+                $("#door").attr("src","pic/door2.png");
+                setTimeout("javascript:location.href='main.html'", 200);
+            });
+        });
+    </script>
+</body>
+</html>

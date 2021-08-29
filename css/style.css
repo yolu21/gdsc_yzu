@@ -1,0 +1,141 @@
+body,html{
+    overflow-y: hidden;
+    margin: 0px;
+    height:100%;
+}
+@font-face {
+    font-family:Google Sans;
+    src:url(GoogleSans-Regular-v1.27.ttf);
+}
+
+.main{
+    position: absolute;
+    transform-origin: center center;
+    top:-1%;
+}
+#menuicon{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border:solid 2px black;
+    position: fixed;
+    top: 5%;
+    left: 95%;
+    z-index: 1;
+}
+#menu{
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background-color: #FFF8E1;
+    left:85%;
+    display: none;
+    z-index: 11;
+
+}
+.nav{
+    width:100%;
+    height:100%;
+    position: relative;
+    top:8%;
+}
+.nav li{
+
+    width:80%;
+    height:7.5%;
+    position: relative;
+    left:-7.5%;
+    background-color: white;
+    list-style-type: none;
+    font-size: 150%;
+    border-bottom: gray 1px solid;
+}
+.nav li:hover{
+
+    background-color: #FFECB3;
+}
+a:link{
+   
+    text-decoration:none;
+    color:#000000;
+    }
+a:visited {
+    color:#000000;
+    }
+a:hover {
+    text-decoration:none;
+    color:gray;
+    }
+a:active {
+    text-decoration:none;
+    color:#000000;
+    }
+.abc{
+        position: relative;
+        top:25%
+    }
+.cover{
+    display: none;
+    overflow-y: visible;
+    width:100%;
+    height: 100%;
+    background-color: rgba(150, 150, 150, 0.3);
+    position:fixed;
+    top:50%;left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 10;
+}
+.icon{
+    width: 10%;
+}
+
+.container{
+    position:inherit;
+    width: 95%;
+    height: 60%;
+    top:32%;
+    z-index: 13;
+    }
+
+.peoplelink{
+    font-size: 15px;
+}
+.peoplelink a:link{
+    text-decoration:none;
+    color:#0a0068;
+}
+.peoplelink a:visited {
+color:#0a0068;
+}
+.peoplelink a:hover {
+text-decoration:none;
+color:grey;
+}
+.peoplelink a:active {
+text-decoration:none;
+color:#0a0068;
+}
+
+.learn a:link{
+    text-decoration:none;
+    color:#523f00;
+}
+.learn a:visited {
+color:#523f00;
+}
+.learn a:hover {
+text-decoration:none;
+color:grey;
+}
+.learn a:active {
+text-decoration:none;
+color:#523f00;
+}
+h1,h2{
+    font-family: Google Sans;
+    font-weight: bold;
+}
+h3,h4,h5.p{
+    font-family: Google Sans;
+}

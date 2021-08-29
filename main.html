@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META http-equiv="Page-Enter" CONTENT="RevealTrans(Duration=4,Transition=4)">
+    <title>GDSC YZU</title>
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/type.css"> 
+    <link rel="stylesheet" href="css/element.css">
+    <link rel="stylesheet" href="css/anime.css">
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/character.css">
+    <link rel="stylesheet" href="css/hint.css">
+    <link href="pic/gdscicon.png" rel="Shortcut Icon" type="image/x-icon">
+    <script src="js/jquery_1.8.0.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/mobile.js"></script>
+</head>
+<body>
+    <div class="box1">
+        <div class="cover"></div>
+        <div id ="menuicon">
+            <img style="width: 50px;position: relative;" src="pic/menu.png">
+        </div>
+        <!--menu-->
+        <div id="menu">
+            <img src='pic/close.png' id="menuclose" style="width:30%;position:relative;left:35%;top:5%">
+            <ul class="nav">
+                <li style="border-radius: 10px 10px 0 0;">
+                    <a href="#about">
+                        <div class="abc gdsc" >About</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#organizer">
+                        <div class="abc organizer">Organizer</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#activity">
+                        <div class="abc activity" >Activity</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#resource">
+                        <div class="abc resource" >Resource</div>
+                    </a>
+                </li>
+                <li style="border-radius: 0px 0px 10px 10px;border: 0px;">
+                    <a href="#contact">
+                        <div class="abc contactus" >Contact us</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--menu-->
+        <!--main放畫面上的element-->
+        <div class="main">
+            <div>
+                <img id="table" src="pic/table.png">
+            </div>
+            <div >
+                <img id="computer"  src="pic/computer.png">
+            </div>
+            <div id="word">
+                <div id="typing"></div>
+            </div> 
+            <script src="js/type.js"></script>
+            <div>
+                <a href="#about"><img id="logo" class="gdsc" src="pic/logo.png"></a>
+                <div class="cover"> </div>
+                <div class="information aboutgdsc">
+                    <img class="close" src="pic/close.png">
+                    <div class="top t">
+                        <img src="pic/logo2.png" style="width: 40%;position:relative;left:30%;top:13.5%">
+                    </div>
+                        <div class ="about a1 mySlides">
+                            <h1 style="text-align:center;margin-top:5%;">Who are We?</h1>
+                            <img src="pic/hand.png" class="hand">
+                            <div style="position: relative;left:10%;margin-top: -10%;">
+                                <h3>大家好!我們是GDSC YZU</h3>
+                                <h3>在下一學年我們會在元智進行活動</h3>
+                                <h3>和國內外上千個GDSC社群交流軟體開發並推廣Google的技術。</h3>
+                                <h3>有定期社課和舉辦針對coding新手的工作坊等活動</h3>
+                                <h3>不論科系、年級，甚至是校外人士都可以加入我們！</h3>
+                                <h5 style="color:rgb(0, 30, 150);">p.s就算是沒有程式基礎的同學，也有屬於你的活動喔~~還在猶豫什麼!!快進discord就知道我們在幹嘛啦</h5>
+                            </div>
+                        </div>
+                        <div class = "about a2 mySlides">
+                            <h1 style="text-align:center;margin-top: 5%;">What is GDSC?</h1>
+                            <img src="pic/hand2.png" class="hand">
+                            <div style="position: relative;left:10%;margin-top: -10%;">
+                                <h3>各位是否有聽過GDG（Google Developer Groups，開發者社群）？</h3>
+                                <h3>他們是由業界中對google軟體科技有熱忱的工程師所組成</h3>
+                                <h3>藉由google的協助使得他們能夠推廣自己喜歡的技術或是和他人討論，</h3>
+                                <h3>而GDSC就是他們的學生版，我們是對軟體開發有興趣的學生</h3>
+                                <h3>加入我們就能成為google developer的一員！</h3>
+                                <a style="color: rgb(140, 20, 0);" id ="official" href="https://developers.google.cn/community/dsc?hl=zh-cn" target="_blank" >GDSC官網</a>
+                                <p style="font-size: 20%;">&nbsp;</p>
+                            </div>
+                        </div>
+                        <div class = "about a3 mySlides">
+                            <h1 style="text-align:center;margin-top: 5%;">What will We Learn?</h1>
+                            <img src="pic/hand3.png" class="hand">
+                            <div style="position: relative;left:10%;margin-top: -8%;">
+                                <h3>我們會進行一週一次的線上社課</h3>
+                                <h3>會簡單介紹各種軟體開發工具與技術</h3>
+                                <h3>成員可以針對自己有興趣的程式語言進行交流</h3>
+                                <h3>也會舉辦新手導向的codeLab，例如學會寫一個簡單的小遊戲，</h3>
+                                <h5>p.s參加活動集點，可以在期中末換小禮物喔~(o(*///▽///*)q)ﾉ</h5>
+                                <p style="font-size: 80%;">&nbsp;</p>
+                            </div>
+                        </div>
+                        <div class = "about a4 mySlides">
+                            <h1 style="text-align:center;margin-top: 5%;">What do We Need?</h1>
+                            <img src="pic/hand4.png" class="hand">
+                            <div style="position: relative;left:10%;margin-top: -8%;">
+                                <h3>1.有一顆對程式有熱忱的心</h3>
+                                <h3>2.加入discord跟我們一起玩，或跟bot玩</h3>
+                                <h3>3.積極參加你有興趣的課程，討論code阿，分享資訊阿</h3>
+                                <h3>4.追蹤我們！按讚我們！(๑•̀ㅁ•́ฅ)</h3>
+                                <h5>快去按按其他東東，可能有好玩的內容喔~</h5>
+                                <p style="font-size: 80%;">&nbsp;</p>
+                            </div>
+                        </div>
+                <img src="pic/right.png" onclick="plusDivs(1)" style="width: 10%;position: relative;top: 60%;left: 90%;z-index: 20;opacity: 0.5;">
+                <img src="pic/left.png" onclick="plusDivs(-1)"style="width: 10%;position: relative;top: 60%;left: -10%;z-index: 20;opacity: 0.5;" >
+                </div>
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+                    
+                    function plusDivs(n) {
+                      showDivs(slideIndex += n);
+                    }
+                    
+                    function showDivs(n) {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      if (n > x.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = x.length} ;
+                      for (i = 0; i < x.length; i++) {
+                         x[i].style.display = "none";  
+                      }
+                      x[slideIndex-1].style.display = "block";  
+                    }
+                </script>
+            </div>
+            <div>
+                <img id ="window" src="pic/window.png">
+            </div>
+            <div>
+                <a href="#contact"><img id="phone" class="contactus" src="pic/phone.png"></a>
+                <div>
+                    <div class="cover"> </div>
+                        <div class="information contact">
+                            <img class="close" src="pic/close.png">
+                            <div class="top t4">
+                                <img src="pic/cell.png" style="width: 49%;position:relative;left:27.5%;top:7.6%">
+                            </div>
+                            <div class="about a4">
+                                <div style="position:relative;top:4%;left:8%">
+                                <h3>我們不是學校正規社團，主要活動據點在Discord</h3>
+                                <h3>從下面這些連結找到我們～詢問相關問題～</h3>
+                                <h3>活動也都會在這些地方公告</h3></div>
+                                    <a  target="_blank" style="position: relative;left:15%;top:2%" href="https://gdsc.community.dev/yuan-ze-university/">
+                                        <img src='pic/gdscicon.png' class="icon">
+                                        <span style="position: relative;top:-6%;font-size: 120%;">GDSC YZU官網</span>
+                                    </a>
+                                    <a  target="_blank"  style="position: relative;left:30%;top:2%" href="https://discord.gg/yGEnaF52mu">
+                                        <img src='pic/dc.png' class="icon">
+                                        <span style="position: relative;top:-6%;font-size: 120%;">Discord</span>
+                                    </a>
+                                    <a  target="_blank" style="position: relative;left:-35.5%;top:30%" href="https://www.facebook.com/gdscyzu/">
+                                        <img src='pic/fb.png' class="icon">
+                                        <span style="position: relative;top:-6%;font-size: 120%;">Facebook</span>
+                                    </a>
+                                    <a target="_blank" style="position: relative;left:-12.5%;top:30%" href="https://instagram.com/gdsc_yzu?utm_medium=copy_link">
+                                        <img src='pic/ig.png' class="icon">
+                                        <span style="position: relative;top:-6%;font-size: 120%;">Instagram</spoan>
+                                    </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div>
+                <img id="chair"  src="pic/chair.png">
+            </div>
+            <div>
+                <a href="#activity"><img id="day" class="activity" src="pic/day.png"></a>
+                    <div class="cover"></div>
+                    <div class="information event">
+                        <img class="close" src="pic/close.png">
+                        <div class="top t2">
+                            <img src="pic/activity.png" style="width: 45%;position:relative;left:28%;top:2%">
+                        </div>
+                        <div class="about a2">
+                            <div >
+                                <div class="calendar">
+                                    <div class="calendar-head"></div>
+                                    <h4 class="month-year">September 2021</h4>
+                                    <div class="calendar-body">
+                                        <ul class="weekdays">
+                                            <li>日</li><li>一</li><li>二</li><li>三</li><li>四</li><li>五</li><li>六</li>
+                                        </ul>
+                                        <ul class="days">
+                                            <li class="previous-month">29</li>
+                                            <li class="previous-month">30</li>
+                                            <li class="previous-month">31</li>
+                                            <li>1</li><li>2</li><li>3</li><li>4</li>
+                                            <li>5</li><li>6</li><li>7</li><li>8</li><li>9</li>
+                                            <li>10</li><li>11</li><li>12</li>
+                                            <li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li>
+                                            <li>19</li>
+                                            <li>20</li><li>21</li><li>22</li><li>23</li><li>24</li><li>25</li><li>26</li>
+                                            <li>27</li>
+                                            <li>
+                                                <span class="date-with-event hint--bottom hint--error hint--bounce hint--small hint--rounded"
+                                                    aria-label="期初">   28</span>
+                                            </li>
+                                            <li>29</li><li>30</li>
+                                            <li class="previous-month">1</li>
+                                            <li class="previous-month">2</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class='calendar'>
+                                    <div class="calendar-head"></div>
+                                    <h4 class="month-year">October 2021</h4>
+                                    <div class="calendar-body">
+                                        <ul class="weekdays">
+                                            <li>日</li><li>一</li><li>二</li><li>三</li><li>四</li><li>五</li><li>六</li>
+                                        </ul>
+                                        <ul class="days">
+                                            <li class="previous-month">26</li>
+                                            <li class="previous-month">27</li>
+                                            <li class="previous-month">28</li>
+                                            <li class="previous-month">29</li>
+                                            <li class="previous-month">30</li>
+                                            <li>1</li><li>2</li><li>3</li><li>4</li>
+                                            <li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li>
+                                            <li>12</li>
+                                            <li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li>
+                                            <li>19</li>
+                                            <li>20</li><li>21</li><li>22</li><li>23</li><li>24</li><li>25</li><li>26</li>
+                                            <li>27</li>
+                                            <li>
+                                                <span class="date-with-event hint--bottom hint--error hint--bounce hint--small hint--rounded"
+                                                    aria-label="期初">   28</span>
+                                            </li>
+                                            <li>29</li><li>30</li><li>31</li>
+                                            <li class="previous-month">1</li>
+                                            <li class="previous-month">2</li>
+                                            <li class="previous-month">3</li>
+                                            <li class="previous-month">4</li>
+                                            <li class="previous-month">5</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class='calendar'>
+                                    <div class="calendar-head"></div>
+                                    <h4 class="month-year">Nomember 2021</h4>
+                                    <div class="calendar-body">
+                                        <ul class="weekdays">
+                                            <li>日</li><li>一</li><li>二</li><li>三</li><li>四</li><li>五</li><li>六</li>
+                                        </ul>
+                                        <ul class="days">
+                                            <li class="previous-month">31</li>
+                                            <li>1</li><li>2</li><li>3</li><li>4</li>
+                                            <li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li>
+                                            <li>12</li>
+                                            <li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li>
+                                            <li>19</li>
+                                            <li>20</li><li>21</li><li>22</li><li>23</li><li>24</li><li>25</li><li>26</li>
+                                            <li>27</li>
+                                            <li>
+                                                <span class="date-with-event hint--bottom hint--error hint--bounce hint--small hint--rounded"
+                                                    aria-label="期初">   28</span>
+                                            </li>
+                                            <li>29</li><li>30</li>
+                                            <li class="previous-month">1</li>
+                                            <li class="previous-month">2</li>
+                                            <li class="previous-month">3</li>
+                                            <li class="previous-month">4</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class='calendar'>
+                                    <div class="calendar-head"></div>
+                                    <h4 class="month-year">December 2021</h4>
+                                    <div class="calendar-body">
+                                        <ul class="weekdays">
+                                            <li>日</li><li>一</li><li>二</li><li>三</li><li>四</li><li>五</li><li>六</li>
+                                        </ul>
+                                        <ul class="days">
+                                            <li class="previous-month">28</li>
+                                            <li class="previous-month">29</li>
+                                            <li class="previous-month">30</li>
+                                            <li>1</li><li>2</li><li>3</li><li>4</li>
+                                            <li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li>
+                                            <li>12</li>
+                                            <li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li>
+                                            <li>19</li>
+                                            <li>20</li><li>21</li><li>22</li><li>23</li><li>24</li><li>25</li><li>26</li>
+                                            <li>27</li>
+                                            <li>
+                                                <span class="date-with-event hint--bottom hint--error hint--bounce hint--small hint--rounded"
+                                                    aria-label="期初">   28</span>
+                                            </li>
+                                            <li>29</li><li>30</li><li>31</li>
+                                            <li class="previous-month">1</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class='calendar'>
+                                    <div class="calendar-head"></div>
+                                    <h4 class="month-year">January 2022</h4>
+                                    <div class="calendar-body">
+                                        <ul class="weekdays">
+                                            <li>日</li><li>一</li><li>二</li><li>三</li><li>四</li><li>五</li><li>六</li>
+                                        </ul>
+                                        <ul class="days">
+                                            <li class="previous-month">26</li>
+                                            <li class="previous-month">27</li>
+                                            <li class="previous-month">28</li>
+                                            <li class="previous-month">29</li>
+                                            <li class="previous-month">30</li>
+                                            <li class="previous-month">31</li>
+                                            <li>1</li><li>2</li><li>3</li><li>4</li>
+                                            <li>5</li><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li><li>11</li>
+                                            <li>12</li>
+                                            <li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li>
+                                            <li>19</li>
+                                            <li>20</li><li>21</li><li>22</li><li>23</li><li>24</li><li>25</li><li>26</li>
+                                            <li>27</li>
+                                            <li>
+                                                <span class="date-with-event hint--bottom hint--error hint--bounce hint--small hint--rounded"
+                                                    aria-label="期初">   28</span>
+                                            </li>
+                                            <li>29</li><li>30</li><li>31</li>
+                                            <li class="previous-month">1</li>
+                                            <li class="previous-month">2</li>
+                                            <li class="previous-month">3</li>
+                                            <li class="previous-month">4</li>
+                                            <li class="previous-month">5</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="pic/right.png" onclick="plusDiv(1)" style="width: 10%;position: relative;top:60%;left: 90%;z-index: 20;opacity: 0.5;">
+                        <img src="pic/left.png" onclick="plusDiv(-1)"style="width: 10%;position: relative;top:60%;left: -10%;z-index: 20;opacity: 0.5;" >
+                    </div>
+                    <script>
+                        var slideIndex = 1;
+                        showDiv(slideIndex);
+                        
+                        function plusDiv(n) {
+                          showDiv(slideIndex += n);
+                        }
+                        
+                        function showDiv(n) {
+                          var i;
+                          var x = document.getElementsByClassName("calendar");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                        }
+                    </script>
+            </div>
+            <div>
+                <a href="#organizer"><img id="photo" src="pic/photo.png" class="organizer"></a>
+                <div class="character"></div>
+                <div class="cover"></div>
+                <div class="information people">
+                    <img class="close" src="pic/close.png">
+                    <div class="top t1">
+                        <img src="pic/people.png" style="width: 48%;position:relative;left:25%;top:0%">
+                    </div>
+                    <div class="about a1 peopleSlide">
+                        <h1 style="position: relative;text-align: center;">Lead</h1>
+                        <img src="pic/zhen.jpg" style="width: 32%;margin-left: 5%;border-radius: 5px;margin-top: -2%;">
+                        <div style="position: relative;left:40%;top:-85%" class="peoplelink">
+                            <h2>劉宥廷-ikea</h2>
+                            <h3>團長，也就是社長、lead</h3>
+                            <h3>雖然本名和ikea沒關係，但你可以叫我ikea</h3>
+                            <h3>喜歡寫好玩的程式</h3>
+                            <h3>夢想是在google play之類的地方上架遊戲</h3>
+                            <h3>而且看到什麼技術都想學</h3>
+                            <a href="ikea.html" target="_blank" >點我了解更多</a>
+                        </div>
+                    </div>
+                    <div class="about a1 peopleSlide">
+                        <h1 style="position: relative;text-align: center;">Core team</h1>
+                        <img src="pic/zhen.jpg" style="width: 32%;margin-left: 5%;border-radius: 5px;margin-top: -2%;">
+                        <div style="position: relative;left:40%;top:-85%" class="peoplelink">
+                            <h2>簡珮庭-apple</h2>
+                            <h3>英文名字就叫apple不用懷疑~</h3>
+                            <h3>在discord裡我叫樂樂小寶貝，樂樂是我家的狗狗><</h3>
+                            <h3>最擅長的語言是java</h3>
+                            <h3>會選資工系純粹只是因為覺得寫程式碼很帥很厲害</h3>
+                            <h3>看到沒學過的東西會想學，夢想是成為厲害的工程師。</h3>
+                            <a href="apple.html" target="_blank" >點我了解更多</a>
+                        </div>
+                    </div>
+                    <div class="about a1 peopleSlide">
+                        <h1 style="position: relative;text-align: center;">Core team</h1>
+                        <img src="pic/lad.jpg" style="width: 32%;margin-left: 5%;border-radius: 5px;margin-top: -2%;">
+                        <div style="position: relative;left:40%;top:-85%" class="peoplelink">
+                            <h2>林安滴-</h2>
+                            <h3>discord是LAD不是LED也不是LAN!!</h3>
+                            <h3>因為夢想是當隻鹹魚，所以來唸資工系(誤</h3>
+                            <h3>沒啦XDDD，只是單純覺得能自己寫程式出來用很酷</h3>
+                            <h3>然後喜歡解邏輯問題</h3>
+                            <h3>但我超粗心所以很常de垃圾bug，找一、兩個小時...</h3>
+                            <a href="ikea.html" target="_blank" >點我了解更多</a>
+                        </div>
+                    </div>
+                    <div class="about a1 peopleSlide">
+                        <h1 style="position: relative;text-align: center;">Core team</h1>
+                        <img src="pic/zhen.jpg" style="width: 32%;margin-left: 5%;border-radius: 5px;margin-top: -2%;">
+                        <div style="position: relative;left:40%;top:-85%" class="peoplelink">
+                            <h2>簡毓臻-臻</h2>
+                            <h3>在discord裡我叫阿臻臻，疊字只是感覺好像很可愛(X</h3>
+                            <h3>目前呢喜歡玩網站，然後這個網站是我架的</h3>
+                            <h3>但屬於土法煉鋼玩法，手刻網站我在行!!</h3>
+                            <h3>夢想是架出看起來很炫的網站，跟做出遊戲吧</h3>
+                            <h3>大家趕緊來加入我們，幫我優化一下網站(,,•́ . •̀,,)</h3>
+                            <a href="ikea.html" target="_blank" >點我了解更多</a>
+                        </div>
+                    </div>
+                    <div class="about a1 peopleSlide">
+                        <h1 style="position: relative;text-align: center;">Core team</h1>
+                        <img src="pic/zhen.jpg" style="width: 32%;margin-left: 5%;border-radius: 5px;margin-top: -2%;">
+                        <div style="position: relative;left:40%;top:-85%" class="peoplelink">
+                            <h2>劉佳華-嘎華</h2>
+                            <h3>可以叫我discord裡 的名字嘎華</h3>
+                            <h3>原本想走設計相關科系</h3>
+                            <h3>也不知道怎麼的就到資工了(●°u°●)​ 」</h3>
+                            <h3>對於程設的能力沒有到很強大</h3>
+                            <h3>但是目前我的目標是成為前端工程師或是UXer之類的</h3>
+                            <a href="ikea.html" target="_blank" >點我了解更多</a>
+                        </div>
+                    </div>
+                    <img src="pic/right.png" onclick="plusPeo(1)" style="width: 10%;position: relative;top:60%;left: 90%;z-index: 20;opacity: 0.5;">
+                    <img src="pic/left.png" onclick="plusPeo(-1)"style="width: 10%;position: relative;top:60%;left: -10%;z-index: 20;opacity: 0.5;" >
+                </div>
+                <script>
+                    var slideIndex = 1;
+                    showPeo(slideIndex);
+                    
+                    function plusPeo(n) {
+                      showPeo(slideIndex += n);
+                    }
+                    
+                    function showPeo(n) {
+                      var i;
+                      var x = document.getElementsByClassName("peopleSlide");
+                      if (n > x.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = x.length} ;
+                      for (i = 0; i < x.length; i++) {
+                         x[i].style.display = "none";  
+                      }
+                      x[slideIndex-1].style.display = "block";  
+                    }
+                </script>
+
+                
+            </div>
+            <div>
+                <img id="shelf" src="pic/shelf.png">
+            </div>
+            <div>
+                <div>
+                    <a href="#resource"><img class="book resource" id="other" src="pic/book/other.png"></a>
+                </div> 
+                <div>
+                    <a href="#resource"><img class="book resource" id="py" src="pic/book/py.png"></a>
+                </div>
+                 <div>
+                    <a href="#resource"><img class="book resource" id="cpp" src="pic/book/cpp.png"></a>
+                </div> 
+                <div>
+                    <a href="#resource"><img class="book resource" id="android" src="pic/book/android.png"></a>
+                </div>
+                <div>
+                    <a href="#resource"><img class="book resource" id="ai" src="pic/book/ai.png"></a>
+                </div>
+                <div>
+                    <a href="#resource"><img class="book resource" id="game" src="pic/book/game.png"></a>
+                </div>
+                <div>
+                    <a href="#resource"><img class="book resource" id="csharp" src="pic/book/csharp.png"></a>
+                </div>
+                <div>
+                    <a href="#resource"><img class="book resource" id="web" src="pic/book/web.png"></a>
+                </div>
+                <div>
+                    <a href="#resource"><img class="book resource" id="algorithm" src="pic/book/algorithm.png"></a>
+                </div>
+                <div class="cover"></div>
+                <div class="information learn">
+                    <img class="close" src="pic/close.png">
+                    <div class="top t3">
+                        <img src="pic/resource.png" style="width: 43%;position:relative;left:28%;top:2%">
+                    </div>
+                    <div class="about a3 bookSlide">
+                        <h1 style="text-align: center;">說明</h1>
+                        <div style="position: relative;left:10%">
+                            <h3>這分頁是用來分享各種語言、技術的學習資源</h3>
+                            <h3>認真、專業或者有去的內容都可以加入這分頁</h3>
+                            <h3>由於無資料庫的設立，大多為網站分享</h3>
+                            <h3>至於code的討論、分享可以使用GitHub或CodePen等網站</h3>
+                            <h3>當然想建資料庫，也可以加入我們，成為網站的contributor</h3>
+                            <h3>如同書架上的書，依照discord上的頻道分為九類</h3>
+                            <h3>也歡迎大家多多透過discord的頻道討論技術喔~</h3>
+                            <p style="font-size: 15px;position: relative;left:38%;margin-top:-2%">p.s沒有特別寫對應的分頁，還請各位多按幾下滑鼠....</p>
+                        </div>
+                    </div>
+                    <div class="about a3 bookSlide">
+                        <h1 style="text-align: center;">Algorithm 演算法</h1>
+                        <div style="position: relative;left:10%">
+                            <h3>目前無資源分享(ಥ﹏ಥ)</h3>
+                            <h3>趕緊加入我們跟大家分享你強大的資源(ง •̀_•́)ง</h3>
+                        </div>
+                    </div>
+                    <div class="about a3 bookSlide">
+                        <h1 style="text-align: center;">Web 網站設計</h1>
+                        <div style="position: relative;left:10%">
+                            <h3><a href="https://www.oxxostudio.tw/" target="_blank">網站各種語言說明</a></h3>
+                            <h3><a href="https://blog.techbridge.cc/2017/11/17/drawing-css-image/" target="_blank">用css畫出Rick and Morty</a></h3>
+                            <h3><a href="https://www.webhek.com/misc-res/species-in-pieces/#" target="_blank">用css做出low poly感的瀕臨動物</a></h3>
+                            <h3><a href="http://www.rleonardi.com/interactive-resume/" target="_blank">有趣的自我介紹</a></h3>
+                            <h3><a href="https://theuselessweb.com/" target="_blank">無用網站集合</a></h3>
+                            <h3><a href="https://www.html5tricks.com/demo/html5-mario/index.html" target="_blank">網站版馬力歐</a></h3>
+                        </div>
+                    </div>
+                    <div class="about a3 bookSlide">
+                        <h1 style="text-align: center;">C#</h1>
+                        <div style="position: relative;left:10%">
+                            <h3>目前無資源分享(ಥ﹏ಥ)</h3>
+                            <h3>趕緊加入我們跟大家分享你強大的資源(ง •̀_•́)ง</h3>
+                        </div>
+                    </div>
+                    <div class="about a3 bookSlide">
+                        <h1 style="text-align: center;">Game Design 遊戲設計</h1>
+                        <div style="position: relative;left:10%">
+                            <h3><a href="https://store.steampowered.com/app/1109570/_/?l=tchinese" target="_blank">文字遊戲</a></h3>
+                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;這是一個只有文字的遊戲。在這個世界裡，字不只是字，同時也是物件、人物與場景。</h5>
+                        </div>
+                    </div>
+                    <div class="about a3 bookSlide">
+                        <h1 style="text-align: center;">AI 人工智慧</h1>
+                        <div style="position: relative;left:10%">
+                            <h3>目前無資源分享(ಥ﹏ಥ)</h3>
+                            <h3>趕緊加入我們跟大家分享你強大的資源(ง •̀_•́)ง</h3>
+                        </div>
+                    </div>
+                    <div class="about a3 bookSlide">
+                        <h1 style="text-align: center;">Android 安卓系統</h1>
+                        <div style="position: relative;left:10%">
+                            <h3>目前無資源分享(ಥ﹏ಥ)</h3>
+                            <h3>趕緊加入我們跟大家分享你強大的資源(ง •̀_•́)ง</h3>
+                        </div>
+                    </div>
+                    <div class="about a3 bookSlide">
+                        <h1 style="text-align: center;">C++</h1>
+                        <div style="position: relative;left:10%">
+                            <h3>目前無資源分享(ಥ﹏ಥ)</h3>
+                            <h3>趕緊加入我們跟大家分享你強大的資源(ง •̀_•́)ง</h3>
+                        </div>
+                    </div>
+                    <div class="about a3 bookSlide">
+                        <h1 style="text-align: center;">Python</h1>
+                        <div style="position: relative;left:10%">
+                            <h3><a href="https://replit.com/@ttttita/GDSC-bot#main.py" target="_blank">我們的bot</a></h3>
+                        </div>
+                    </div>
+                    <div class="about a3 bookSlide">
+                        <h1 style="text-align: center;">Other-共筆</h1>
+                        <div style="position: relative;left:10%">
+                            <h3><a href="https://hackmd.io/@DSCNCU/SkswPwAxt/%2FNzY-coATRKqud4aRtGVc9A" target="_blank">GDSC Summer Bootcamp</a></h3>
+                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDSC有舉辦類似講座的summer camp，上面是參加的人整理的共筆。</h5>
+                        </div>
+                    </div>
+                    <div class="about a3 bookSlide">
+                        <h1 style="text-align: center;">Other-CPE專區</h1>
+                        <div style="position: relative;left:10%">
+                            <h3>目前無資源分享(ಥ﹏ಥ)</h3>
+                            <h3>趕緊加入我們跟大家分享你強大的資源(ง •̀_•́)ง</h3>
+                        </div>
+                    </div>
+                <img src="pic/right.png" onclick="plusBook(1)" style="width: 10%;position: relative;top:60%;left: 90%;z-index: 20;opacity: 0.5;">
+                <img src="pic/left.png" onclick="plusBook(-1)"style="width: 10%;position: relative;top:60%;left: -10%;z-index: 20;opacity: 0.5;" >
+                </div>
+                <script>
+                    var slideIndex = 1;
+                    showBook(slideIndex);
+                    
+                    function plusBook(n) {
+                      showBook(slideIndex += n);
+                    }
+                    
+                    function showBook(n) {
+                      var i;
+                      var x = document.getElementsByClassName("bookSlide");
+                      if (n > x.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = x.length} ;
+                      for (i = 0; i < x.length; i++) {
+                         x[i].style.display = "none";  
+                      }
+                      x[slideIndex-1].style.display = "block";  
+                    }
+                </script>
+            </div>
+        </div>
+        <!--main放畫面上的element-->
+    </div>
+</body>
+</html>

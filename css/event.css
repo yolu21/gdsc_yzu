@@ -1,0 +1,50 @@
+.month-year{
+    color:#640000;
+    font-size:220%;
+    margin-top: 2%;
+    text-align: center;
+    border-bottom:2px solid #640000
+} 
+.calendar-body{
+    text-align:center;
+    margin-top: -2%;
+    margin-left: -5%;
+}
+.weekdays{
+    text-transform:uppercase;
+    color:#640000;
+    font-weight:bold;
+    font-size:.9rem;
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    margin-bottom:10px
+}
+.weekdays li{
+    list-style: none;
+}
+.days{
+    display:grid;
+    grid-template-columns:repeat(7,1fr)
+}
+.days li{
+    padding:10px 0;
+    cursor:pointer;
+    position:relative;
+    list-style: none;
+}
+.days li:hover{
+    color:grey
+}
+.previous-month{
+    opacity:.2
+}
+.date-with-event{
+    border:2px solid #E57373;
+    padding:5px;
+    border-radius:50%
+}
+.date-with-event:hover{
+    background:#E57373;
+    color:#ecfffc;
+    font-weight:bold
+}

@@ -1,0 +1,43 @@
+
+   $(document).ready(function(){
+        $("#menuicon").click(function(){
+            $("#menu").slideDown("slow");
+            $(".cover").show();
+        });
+        $("#menuclose").click(function(){
+            $("#menu").slideUp("slow");
+            $(".cover").hide();
+        });
+
+        $(".gdsc").click(function(){
+            $(".aboutgdsc").slideDown("slow");
+            $("#menu").slideUp();
+            $(".cover").show();
+        });
+        $(".contactus").click(function(){
+            $(".contact").slideDown("slow");
+            $("#menu").slideUp();
+            $(".cover").show();
+        });
+        $(".activity").click(function(){
+            $(".event").slideDown("slow");
+            $("#menu").slideUp();
+            $(".cover").show();
+        });
+        $(".organizer").click(function(){
+            $(".people").slideDown("slow");
+            $("#menu").slideUp();
+            $(".cover").show();
+        });
+        $(".resource").click(function(){
+            $(".learn").slideDown();
+            $("#menu").slideUp();
+            $(".cover").show();
+        });
+        $(".close").click(function(){
+            $(".information").slideUp("slow");
+            $(".cover").hide();
+            $("#menu").slideUp();
+        });
+   
+   });
