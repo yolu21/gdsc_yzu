@@ -1,5 +1,5 @@
 body,html{
-    overflow-y: hidden;
+    
     margin: 0px;
     height:100%;
 }
@@ -7,7 +7,13 @@ body,html{
     font-family:Google Sans;
     src:url(GoogleSans-Regular-v1.27.ttf);
 }
-
+h1,h2{
+    font-family: Google Sans;
+    font-weight: bold;
+}
+h3,h4,h5.p{
+    font-family: Google Sans;
+}
 .main{
     position: absolute;
     transform-origin: center center;
@@ -131,11 +137,4 @@ color:grey;
 .learn a:active {
 text-decoration:none;
 color:#523f00;
-}
-h1,h2{
-    font-family: Google Sans;
-    font-weight: bold;
-}
-h3,h4,h5.p{
-    font-family: Google Sans;
 }

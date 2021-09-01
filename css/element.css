@@ -163,3 +163,10 @@
     85%{transform: rotate(6deg);}
     100%{transform: rotate(0deg);}
 }
+#cactus{
+    position: absolute;
+    width: 10%;
+    top:30%;
+    left: 34%;
+    z-index: 12;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="pic/gdscicon.png" rel="Shortcut Icon" type="image/x-icon">
+    <title>Why are you so naughty?</title>
+    <script src="js/jquery_1.8.0.js"></script>
+    <script src="js/wash.js"></script>
+    <style>
+        #shampoo{
+            z-index: 5;
+            transform: translateX(-60%) translateY(-25%) rotate(-15deg);
+        }
+        #shampoo:hover{
+            transform: translateX(-60%) translateY(-25%) scale(1.2) rotate(-15deg);
+        }
+    </style>
+</head>
+<body>
+    <img src="pic/water.png" style="width: 50%;position:fixed;top:50%;left:52.5%;transform: translateX(-47.5%) translateY(-50%);">
+    <img src="pic/body1.png" id="body" style="width: 30%;position:fixed;top:90%;left:55%;transform: translateX(-45%) translateY(-90%);">
+    <img  id="bubble" style="width: 10%;position:fixed;top:40%;left:55%;transform: translateX(-45%) translateY(-40%);">
+    <img src="pic/shampoo.png" id="shampoo" style="width: 10%;position:fixed;top:25%;left:60%;"> 
+</body>
+</html>
