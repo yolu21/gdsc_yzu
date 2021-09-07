@@ -34,6 +34,11 @@
             $("#menu").slideUp();
             $(".cover").show();
         });
+        $(".cactus").click(function(){
+            $(".learnCactus").slideDown();
+            $("#menu").slideUp();
+            $(".cover").show();
+        });
         $(".close").click(function(){
             $(".information").slideUp("slow");
             $(".cover").hide();

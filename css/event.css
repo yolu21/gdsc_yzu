@@ -48,3 +48,14 @@
     color:#ecfffc;
     font-weight:bold
 }
+
+.week-with-event{
+    border:2px solid #81C784;
+    padding:5px;
+    border-radius:20%
+}
+.week-with-event:hover{
+    background:#81C784;
+    color:#ecfffc;
+    font-weight:bold
+}

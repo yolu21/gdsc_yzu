@@ -8,7 +8,7 @@
     color: white;
     transform: rotateY(22deg)  rotateX(30deg) rotate(-12.8deg);
     position: relative;
-    top:-1640px;
+    top:-1640.5px;
     left:32%;
     z-index: 2;
 }

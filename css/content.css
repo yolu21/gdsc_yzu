@@ -1,4 +1,3 @@
-
 .information{
     display: none;
     width:50%;
@@ -43,9 +42,6 @@
     background-color: #4CAF50;
 }
 
-
-
-
 .about{
     position:inherit;
     width: 90%;
@@ -71,3 +67,26 @@
     background-color: #C8E6C9;
     border-radius:20px;
 }
+.plant-title-1{
+    width: 50px;
+    background-color: rgb(130, 180, 180);
+    border-radius: 10px;
+    text-align: center;
+}
+.plant-title-2{
+    width: 100px;
+    background-color: rgb(130, 180, 180);
+    border-radius: 10px;
+    text-align: center;
+}
+.plant-content-1{
+    position:relative;
+    margin-top:-6%;
+    left: 8%;
+}
+.plant-content-2{
+    position:relative;
+    margin-top:-6%;
+    left: 16%;
+}
+
