@@ -136,5 +136,21 @@ color:grey;
 }
 .learn a:active {
 text-decoration:none;
-color:#523f00;
+color:#007e49;
+}
+
+.aboutmemories a:link{
+    text-decoration:none;
+    color:#007e49;
+}
+.aboutmemories a:visited {
+color:#007e49;
+}
+.aboutmemories a:hover {
+text-decoration:none;
+color:grey;
+}
+.aboutmemories a:active {
+text-decoration:none;
+color:#007e49;
 }

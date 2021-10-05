@@ -49,9 +49,19 @@
                         <div class="abc resource" >Resource</div>
                     </a>
                 </li>
-                <li style="border-radius: 0px 0px 10px 10px;border: 0px;">
+                <li>
                     <a href="#contact">
                         <div class="abc contactus" >Contact us</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#cactus">
+                        <div class="abc green" >Cactus</div>
+                    </a>
+                </li>
+                <li style="border-radius: 0px 0px 10px 10px;border: 0px;">
+                    <a href="#memories">
+                        <div class="abc memo" >Memories</div>
                     </a>
                 </li>
             </ul>
@@ -643,7 +653,7 @@
                 </script>
             </div>
             <div>
-                <a href="#cactus"><img class="cactus" src="pic/plant/cactus.png"></a>
+                <a href="#cactus"><img class="cactus green" src="pic/plant/cactus.png"></a>
                 <div class="cover"></div>
                 <div class="information learnCactus">
                     <img class="close" src="pic/close.png">
@@ -754,6 +764,68 @@
                          x[i].style.display = "none";  
                       }
                       x[slideIndex-1].style.display = "block";  
+                    }
+                </script>
+            </div>
+            <div>
+                <img id="paste" src="pic/paste.png">
+                <a href="#memories"><img class="memories memo" src="pic/memories.png"></a>
+                <div class="cover"></div>
+                <div class="information aboutmemories">
+                    <img class="close" src="pic/close.png">
+                    <div class="top t5">
+                        <img src="pic/camera.png" style="width: 52%;position:relative;left:23%;top:2.5%">
+                    </div>
+                    <div class="about a4 MemoSlide">
+                        <h1 style="text-align: center;">說明</h1>
+                        <div style="position: relative;left:10%">
+                            <h2>此分頁用來存放我們的回憶</h2>
+                            <h2>好啦 ! 其實就是活動 or 社課的影片、PPT連結之類的</h2>
+                        </div>
+                    </div>
+                    <div class="about a4 MemoSlide">
+                        <h1 style="text-align: center;">09.27 期初社大 & 迷宮</h1>
+                        <div style="position: relative;left:10%">
+                            <h2><a href="https://docs.google.com/presentation/d/1zOqzjeaeY-VKJJ2pNNaQLEviOW4ahQ4aDEDin5M_JmM/edit#slide=id.g25bc445820_0_0" target="_blank">
+                                期初PPT</a></h2>
+                            <h2><a href="https://gather.town/app/YxeY9WdZwzZbLdnw/gdsc_yzu_maze" target="_blank">
+                                期初迷宮</a></h2>
+                            <h2>想看更多照片請到<a href="https://www.instagram.com/p/CUcklyhBHWA/?utm_medium=copy_link"  target="_blank">
+                                IG</a>或<a href="https://www.facebook.com/709113419880783/posts/772937383498386/" target="_blank">
+                                FB</a>觀看喔 ~</h2>
+                        </div>
+                    </div>
+                    <div class="about a4 MemoSlide">
+                        <h1 style="text-align: center;">10.04 第一節社課 - 期初競賽說明會</h1>
+                        <div style="position: relative;left:10%">
+                            <h2><a href="https://docs.google.com/presentation/d/1oxLViYW0TNsq9-SWcCpEnkYkRkN-USGTfx0VtDFn6CQ/edit#slide=id.p" target="_blank">
+                                說明PPT</a></h2>
+                            <h2><a href="https://drive.google.com/file/d/1c2z3786rgXgtYgYxDd1btoIAIj4q_ebN/view" target="_blank">
+                                影pen</a></h2>
+                            <h2><a href="https://gdsc.community.dev/events/details/developer-student-clubs-yuan-ze-university-presents-she-nei-qi-chu-jing-sai/" target="_blank">
+                                點擊此處報名喔喔喔</a></h2>
+                        </div>
+                    </div>
+                    <img src="pic/right.png" onclick="plusMemo(1)" style="width: 10%;position: relative;top:60%;left: 90%;z-index: 20;opacity: 0.5;">
+                    <img src="pic/left.png" onclick="plusMemo(-1)"style="width: 10%;position: relative;top:60%;left: -10%;z-index: 20;opacity: 0.5;" >
+                </div>
+                <script>
+                    var slideIndex = 1;
+                    showMemo(slideIndex);
+                    
+                    function plusMemo(n) {
+                        showMemo(slideIndex += n);
+                    }
+                    
+                    function showMemo(n) {
+                        var i;
+                        var x = document.getElementsByClassName("MemoSlide");
+                        if (n > x.length) {slideIndex = 1}    
+                        if (n < 1) {slideIndex = x.length} ;
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
+                        }
+                        x[slideIndex-1].style.display = "block";  
                     }
                 </script>
             </div>

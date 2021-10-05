@@ -34,8 +34,13 @@
             $("#menu").slideUp();
             $(".cover").show();
         });
-        $(".cactus").click(function(){
+        $(".green").click(function(){
             $(".learnCactus").slideDown();
+            $("#menu").slideUp();
+            $(".cover").show();
+        });
+        $(".memo").click(function(){
+            $(".aboutmemories").slideDown();
             $("#menu").slideUp();
             $(".cover").show();
         });
