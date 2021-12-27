@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/event.css">
     <link rel="stylesheet" href="css/character.css">
     <link rel="stylesheet" href="css/hint.css">
+    <link rel="stylesheet" href="css/xmas.css">
     <link href="pic/gdscicon.png" rel="Shortcut Icon" type="image/x-icon">
     <script src="js/jquery_1.8.0.js"></script>
     <script src="js/slide.js"></script>
@@ -868,6 +869,77 @@
                     }
                 </script>
             </div>
+            <div>
+                <div class ="xmas">
+                    <div id="nail"></div>
+                    <div id="socks">
+                        <div id="tie"></div>
+                        <div id ="socks_w"></div>
+                        <div id ="socks_1"></div>
+                        <div id ="socks_2"></div>
+                        <div class="deco short">
+                            <div id="line1"></div>
+                            <div id="ball1"></div>
+                        </div>
+                        <div class="deco long">
+                            <div id="line2"></div>
+                            <div id="ball2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cover"></div>
+                <div class="information aboutxmas">
+                    <img class="close" src="pic/close.png">
+                    <div class="top t5">
+                        <img src="pic/camera.png" style="width: 52%;position:relative;left:23%;top:2.5%">
+                    </div>
+                    <div class="about a4 XmasSlide">
+                        <h1 style="text-align: center;">11.01 網站必學之課 - 複製貼上</h1>
+                        <div style="position: relative;left:10%">
+                            <h2><a href="https://docs.google.com/presentation/d/1WSKARfec4iHAE2FAGd39HiDIXplSz7trOfsye3mYjZ8/edit#slide=id.p" target="_blank">
+                                vs code安裝</a></h2>
+                            <h2><a href="https://docs.google.com/presentation/d/11nTeesjIgsd_ga1rdsWeggtKniktADyvP4ukFMPGoRU/edit#slide=id.p1" target="_blank">
+                                活動ppt</a></h2>
+                            <h2><a href="https://github.com/yolu21/learning" target="_blank">
+                                learning code</a></h2>
+                            <h2><a href="https://yolu21.github.io/profile_learn/" target="_blank">
+                                codeLab demo</a></h2>
+                            <h2><a href="https://github.com/yolu21/profile_learn" target="_blank">
+                                codeLab code</a></h2>
+                        </div>
+                    </div>
+                    <div class="about a4 XmasSlide">
+                        <h1 style="text-align: center;">11.01 網站必學之課 - 複製貼上</h1>
+                        <div style="position: relative;left:10%">
+                            
+                            <h2><a href="https://github.com/yolu21/profile_learn" target="_blank">
+                                codeLab code</a></h2>
+                        </div>
+                    </div>
+                    <img src="pic/right.png" onclick="plusXmas(1)" style="width: 10%;position: relative;top:60%;left: 90%;z-index: 20;opacity: 0.5;">
+                    <img src="pic/left.png" onclick="plusXmas(-1)"style="width: 10%;position: relative;top:60%;left: -10%;z-index: 20;opacity: 0.5;" >
+                </div>
+                <script>
+                    var slideIndex = 1;
+                    showXmas(slideIndex);
+                    
+                    function plusXmas(n) {
+                        showXmas(slideIndex += n);
+                    }
+                    
+                    function showXmas(n) {
+                        var i;
+                        var x = document.getElementsByClassName("XmasSlide");
+                        if (n > x.length) {slideIndex = 1}    
+                        if (n < 1) {slideIndex = x.length} ;
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
+                        }
+                        x[slideIndex-1].style.display = "block";  
+                    }
+                </script>
+            </div>
+
         </div>
         <!--main放畫面上的element-->
     </div>

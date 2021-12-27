@@ -178,16 +178,17 @@
 #paste{
     width: 2.5%;
     position: absolute;
-    top:65%;
-    left:15%;
+    top:70%;
+    left:24%;
     z-index: 3;
 }
 .memories{
     width: 6%;
     position: absolute;
-    top:70%;
-    left:13.5%;
+    top:75%;
+    left:22.5%;
     transition: 0.5s ease-in-out;
+    z-index: 12;
 }
 .memories:hover{
     transform: translateY(20px);

@@ -44,6 +44,11 @@
             $("#menu").slideUp();
             $(".cover").show();
         });
+        $(".xmas").click(function(){
+            $(".aboutxmas").slideDown();
+            $("#menu").slideUp();
+            $(".cover").show();
+        });
         $(".close").click(function(){
             $(".information").slideUp("slow");
             $(".cover").hide();

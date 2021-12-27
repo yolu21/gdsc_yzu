@@ -1,0 +1,100 @@
+.xmas{
+    position: absolute;
+    top:60%;
+    left:5%;
+}
+#nail{
+    width:8px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: gray;
+    position: relative;
+    left:85.5px;
+}
+#socks{
+    width: 100px;
+    transition: 0.5s ease-in-out
+}
+#socks:hover{
+    /*transform:rotate(-15deg);*/
+    transform: translateY(20px);
+}
+#tie{
+    width: 10px;
+    height: 30px;
+    border: 5px solid green;
+    border-radius: 30px;
+    background-color:transparent;
+    position: relative;
+    top:-14px;
+    left:80px;
+}
+#socks_w{
+    width: 82px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(224, 224, 224);
+    position: relative;
+    top:-24px;
+    left: 33px;
+    z-index: 3;
+}
+#socks_1{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    position: relative;
+    top:-24px;
+    left: 40px;
+}
+#socks_2{
+    width: 110px;
+    height: 65px;
+    background-color: red;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    top: -29px;
+}
+
+.deco{
+    position: relative;
+    z-index: 2;
+}
+.short{
+    top:-170px;
+    left:72px;
+}
+.long{
+    top:-220px;
+    left:85px;
+}
+#line1{
+    width:2px;
+    height:45px;
+    position: relative;
+    left:7px;
+    background-color: yellow;
+    
+}
+#ball1{
+    width:15px;
+    height:15px;
+    border-radius: 25px;
+    background-color: yellow;
+}
+#line2{
+    width:2px;
+    height:55px;
+    position: relative;
+    background-color: yellow;
+    left:7px;
+}
+#ball2{
+    width:15px;
+    height:15px;
+    border-radius: 25px;
+    background-color: yellow;
+}
